@@ -1,3 +1,50 @@
+Latest Task
+
+Scene 1: Simulate the following (Realized before committing)
+1. Remote has 3 branches: main,branch1,branch2.
+2. Pull from the remote.
+3. Checkout to branch2 and work something inside branch2. Do not commit those
+changes.
+4. Half way through the task you realize you were working on the wrong branch, you
+were supposed to be working in branch1.
+5. Find a way to carry these changes to branch1, while branch2 is left unchanged.
+
+
+
+Scene 2: Simulate the following (Realized after committing)
+1. Remote has 3 branches: main,branch1,branch2.
+2. Pull from the remote.
+3. Checkout to branch2 and work something inside branch2.
+4. Commit those changes.
+5. You realize you were working on the wrong branch, you were supposed to be
+working in branch1.
+6. Find a way to undo these changes made to branch2, and do the changes inside
+branch1.
+
+
+
+Scene 3:Simulate the following (Realized after pushing)
+1. Remote has 3 branches: main,branch1,branch2.
+2. Pull from the remote.
+3. Checkout to branch2 and work something inside branch2.
+4. Commit those changes.
+5. Push those changes.
+6. You realize you were working on the wrong branch, you were supposed to be
+working in branch1.
+7. Find a way to undo these changes made to branch2, and do the changes inside
+branch1. Both local and remote
+
+
+
+-----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 Task 1
 
 - Clone this branch
