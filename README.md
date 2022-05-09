@@ -6,3 +6,5 @@ Task 1
 
 - create another branch in your name
 - delete the second branch in remote and in local
+
+NOTE : Do not merge your local branch with main branch
